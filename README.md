@@ -181,19 +181,18 @@ pour pouvoir utiliser les promise sur un autre package  *exemple
 * Promise
  
  ``
-then((response) => {
-
-)
-.catch((error) => {
-  // break promise here
-})
-.then((response) => {
- // skip
- // Je ne veux pas de vérifications supplémentaires ici!
-)
-.catch((error) => {
-  // skip
-  // Je ne veux pas de vérifications supplémentaires ici!
-}) 
+    then((response) => {
+    )
+    .catch((error) => {
+      // break promise here
+    })
+    .then((response) => {
+     // skip
+     // Je ne veux pas de vérifications supplémentaires ici!
+    )
+    .catch((error) => {
+      // skip
+      // Je ne veux pas de vérifications supplémentaires ici!
+    }) 
  `` 
 * fin
