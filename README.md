@@ -57,7 +57,7 @@ ensuite pour l'utiliser sur votre page html ajouter le lien du fichier javascrip
 ### installation 
  npm install localforage
  ensuite pour l'utiliser sur votre page html ajouter le lien du fichier javascripte
- <script src="localforage/dist/localforage.js"></script>
+ `<script src="localforage/dist/localforage.js"></script>`
  
 ### utiliter
 
@@ -66,12 +66,13 @@ il permet de gerre les fichier uploider
 ### utilisation
 
 * cote html
- <script>localforage.getItem('something', myCallback);</script>
+
+`` <script>localforage.getItem('something', myCallback);</script>``
  
 * cote nodesjs
  
 * configuration
-
+``
     localforage.config({
         driver      : localforage.WEBSQL, //Forcer WebSQL; même utilisation de setDriver ()
         name        : 'myApp',
@@ -80,11 +81,11 @@ il permet de gerre les fichier uploider
         storeName   : 'keyvaluepairs', //Devrait être alphanumérique, avec des traits de soulignement.
         description : 'some description'
     }); 
-
+``
 
 
 * avec les promise
-
+``
     localforage.setItem('key', 'value').then(function () {
       return localforage.getItem('key');
     }).then(function (value) {
@@ -92,6 +93,7 @@ il permet de gerre les fichier uploider
     }).catch(function (err) {
       // we got an error
     });
+``
 
 ## COLOR
 
