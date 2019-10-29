@@ -72,6 +72,7 @@ il permet de gerre les fichier uploider
 * cote nodesjs
  
 * configuration
+
 ``
 localforage.config({
     driver      : localforage.WEBSQL, //Forcer WebSQL; même utilisation de setDriver ()
@@ -84,6 +85,7 @@ localforage.config({
 
 
 * avec les promise
+
 ``
 localforage.setItem('key', 'value').then(function () {
   return localforage.getItem('key');
@@ -109,6 +111,7 @@ initialiser le avec
 ### UTILISATION
 
 * avec les promise
+
 ``
 var color = Color('rgb(255, 255, 255)')
 var color = Color({r: 255, g: 255, b: 255})
@@ -117,6 +120,7 @@ var color = Color.rgb([255, 255, 255])
 ``
 
 * manipulation
+
 ``
     color.negate()         // rgb(0, 100, 255) -> rgb(255, 155, 0)
 
