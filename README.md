@@ -16,6 +16,7 @@ D3 (ou D3.js) est une bibliothèque JavaScript permettant de visualiser des donn
 
 npm install d3
 et initialiser le en sur votre fichier serveur.js avec 
+
 const D3 = require('d3')
 
 ensuite pour l'utiliser sur votre page html ajouter le lien du fichier javascripte
@@ -24,6 +25,7 @@ ou la version minifier
 <script src="https://d3js.org/d3-selection.v1.js"></script>
 
 ### utilisation
+
 var d3 = Object.assign({}, require("d3-format"), require("d3-geo"), require("d3-geo-projection"));
 
 ## MOMENT
@@ -86,6 +88,7 @@ localforage.setItem('key', 'value').then(function () {
 ## COLOR
 
 ### UTILITER
+
 Bibliothèque JavaScript pour la conversion et la manipulation de couleurs immuables avec prise en charge des chaînes de couleurs CSS.
 
 ### INSTALLATION
