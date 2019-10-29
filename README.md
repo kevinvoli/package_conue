@@ -137,9 +137,9 @@ var color = Color.rgb([255, 255, 255])
 
     color.mix(Color("yellow"))        // cyan -> rgb(128, 255, 128)
     color.mix(Color("yellow"), 0.3)   // cyan -> rgb(77, 255, 179)
-``
+
 // chaining
-    color.green(100).grayscale().lighten(0.6)
+    color.green(100).grayscale().lighten(0.6)``
 
 ## BLUEBIRD
 
