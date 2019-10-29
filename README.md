@@ -73,27 +73,25 @@ il permet de gerre les fichier uploider
  
 * configuration
 ``
-    localforage.config({
-        driver      : localforage.WEBSQL, //Forcer WebSQL; même utilisation de setDriver ()
-        name        : 'myApp',
-        version     : 1.0,
-        size        : 4980736, // Taille de la base de données, en octets. WebSQL-seulement pour l'instant.
-        storeName   : 'keyvaluepairs', //Devrait être alphanumérique, avec des traits de soulignement.
-        description : 'some description'
-    }); 
-``
+localforage.config({
+    driver      : localforage.WEBSQL, //Forcer WebSQL; même utilisation de setDriver ()
+    name        : 'myApp',
+    version     : 1.0,
+    size        : 4980736, // Taille de la base de données, en octets. WebSQL-seulement pour l'instant.
+    storeName   : 'keyvaluepairs', //Devrait être alphanumérique, avec des traits de soulignement.
+    description : 'some description'
+}); ``
 
 
 * avec les promise
 ``
-    localforage.setItem('key', 'value').then(function () {
-      return localforage.getItem('key');
-    }).then(function (value) {
-      // we got our value
-    }).catch(function (err) {
-      // we got an error
-    });
-``
+localforage.setItem('key', 'value').then(function () {
+  return localforage.getItem('key');
+}).then(function (value) {
+  // we got our value
+}).catch(function (err) {
+  // we got an error
+});``
 
 ## COLOR
 
