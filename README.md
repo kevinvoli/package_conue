@@ -1,5 +1,6 @@
-# package_conue
 
+# package_conue
+```bash
 
 * 1 D3
 * 2 MOMENT
@@ -75,7 +76,8 @@ il permet de gerre les fichier uploider
     size        : 4980736, // Taille de la base de données, en octets. WebSQL-seulement pour l'instant.
     storeName   : 'keyvaluepairs', //Devrait être alphanumérique, avec des traits de soulignement.
     description : 'some description'
-});
+});```
+
 *avec les promise
 
 localforage.setItem('key', 'value').then(function () {
