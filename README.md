@@ -67,6 +67,7 @@ il permet de gerre les fichier uploider
  *cote nodesjs
  
  *configuration
+ 
  localforage.config({
     driver      : localforage.WEBSQL, //Forcer WebSQL; même utilisation de setDriver ()
     name        : 'myApp',
