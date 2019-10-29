@@ -150,7 +150,7 @@ Bluebird est une bibliothèque de promesses mermetant d'utiliser les promise pre
 npm install bluebird
 
 initialiser le avec 
-    const Promise=requuire( "bluebird");
+    ``const Promise=requuire( "bluebird");``
 
 ### utilisation
 
@@ -178,19 +178,19 @@ pour pouvoir utiliser les promise sur un autre package  *exemple
     const getRedisdata = getData(redisKey);
     console.log("2. getRedisdata", getRedisdata);
 
-*Promise
+* Promise
 
-    .then((response) => {
+`` .then((response) => {
 
-    )
-    .catch((error) => {
-      // break promise here
-    })
-    .then((response) => {
-     // skip
-     // Je ne veux pas de vérifications supplémentaires ici!
-    )
-    .catch((error) => {
-      // skip
-      // Je ne veux pas de vérifications supplémentaires ici!
-    })
+)
+.catch((error) => {
+  // break promise here
+})
+.then((response) => {
+ // skip
+ // Je ne veux pas de vérifications supplémentaires ici!
+)
+.catch((error) => {
+  // skip
+  // Je ne veux pas de vérifications supplémentaires ici!
+})``
