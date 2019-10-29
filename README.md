@@ -64,12 +64,13 @@ ensuite pour l'utiliser sur votre page html ajouter le lien du fichier javascrip
 localForage est une bibliothèque de stockage rapide et simple pour JavaScript.
 il permet de gerre les fichier uploider
 ### utilisation
-*cote html
+
+* cote html
  <script>localforage.getItem('something', myCallback);</script>
  
- *cote nodesjs
+* cote nodesjs
  
- *configuration
+* configuration
 
     localforage.config({
         driver      : localforage.WEBSQL, //Forcer WebSQL; même utilisation de setDriver ()
@@ -82,7 +83,7 @@ il permet de gerre les fichier uploider
 
 
 
-*avec les promise
+* avec les promise
 
     localforage.setItem('key', 'value').then(function () {
       return localforage.getItem('key');
